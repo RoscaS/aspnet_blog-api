@@ -1,17 +1,18 @@
-* [tuto](https://www.freecodecamp.org/news/an-awesome-guide-on-how-to-build-restful-apis-with-asp-net-core-87b818123e28/)
+# Projet ASP.net
 
-## Endpoints
+* Sol Rosca INF3b
 
-* `/api/categories`
-* `/api/articles`
+Simple API Rest pour se familiariser avec ASP. Très similaire à Spring, il ne me semblait pas nécessaire d'aller plus loin.
 
-## Dependencies
+
+## Dépendances
 
 * .net core 3.0
 * EntityFrameworkCore
 * AutoMapper
 
-## Use
+## Utilisation
+N'a pas été testé sur Windows.
 
 * Clone
 * Cd to root and `dotnet run`
@@ -19,3 +20,7 @@
     *  `http://localhost:8081/api/categories`
     *  `http://localhost:8081/api/articles`
 
+## Endpoints
+
+* `/api/categories`
+* `/api/articles`
